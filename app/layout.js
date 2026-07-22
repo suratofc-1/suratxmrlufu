@@ -3,11 +3,11 @@ import "./globals.css";
 export const metadata = {
   metadataBase: new URL("https://mainsurat.pages.dev"),
   title: {
-    default: "SURAT4D | Solusi Layanan Digital yang Nyaman dan Aman",
+    default: "SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
     template: "%s | SURAT4D",
   },
   description:
-    "SURAT4D adalah platform digital Indonesia yang menawarkan layanan modern, akses cepat, dukungan pelanggan 24 jam, dan sistem keamanan yang terpercaya.",
+    "SURAT4D adalah layanan digital Indonesia yang menyediakan akses cepat, dukungan 24 jam, dan keamanan modern untuk pengalaman online yang nyaman dan terpercaya.",
   keywords: [
     "SURAT4D",
     "SURAT4D AKSES",
@@ -22,9 +22,9 @@ export const metadata = {
     google: "OoCTB5Tyzd2T1mYa3noTO5eAnc4BHilbv7rUwJJsvVQ",
   },
   openGraph: {
-    title: "SURAT4D | Solusi Layanan Digital yang Nyaman dan Aman",
+    title: "SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
     description:
-      "Temukan layanan digital yang cepat, aman, dan mudah diakses dengan dukungan pelanggan 24 jam.",
+      "Selamat datang di SURAT4D: platform digital Indonesia dengan akses cepat, dukungan 24 jam, dan layanan aman untuk semua kebutuhan online Anda.",
     url: "https://mainsurat.pages.dev/",
     siteName: "SURAT4D",
     images: [
@@ -39,9 +39,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SURAT4D | Solusi Layanan Digital yang Nyaman dan Aman",
+    title: "SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
     description:
-      "Temukan layanan digital yang cepat, aman, dan mudah diakses dengan dukungan pelanggan 24 jam.",
+      "Selamat datang di SURAT4D: platform digital Indonesia dengan akses cepat, dukungan 24 jam, dan layanan aman untuk semua kebutuhan online Anda.",
     images: ["/thumbnail.webp"],
   },
   robots: {
@@ -56,7 +56,9 @@ export const metadata = {
     },
   },
   icons: {
-    icon: "/logo.png",
+    icon: "/favicon.ico",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 

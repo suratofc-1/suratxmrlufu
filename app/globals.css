@@ -11,3 +11,33 @@
     color: var(--color-foreground);
   }
 }
+
+@layer utilities {
+  .btn-shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-shimmer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -110%;
+    width: 45%;
+    height: 120%;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.75) 45%, rgba(255,255,255,0.4) 55%, transparent 100%);
+    transform: skewX(-18deg);
+    opacity: 0.95;
+    pointer-events: none;
+    animation: shimmer-fast 0.7s linear infinite alternate;
+  }
+
+  @keyframes shimmer-fast {
+    0% {
+      left: -110%;
+    }
+    100% {
+      left: 130%;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Beranda SURAT4D | Pengalaman Layanan Digital yang Aman",
+  title: "Beranda SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
   description:
-    "SURAT4D menghadirkan pengalaman layanan digital modern dengan akses cepat, dukungan pelanggan 24 jam, dan sistem keamanan yang terpercaya.",
+    "Selamat datang di SURAT4D: platform digital Indonesia dengan akses cepat, dukungan 24 jam, dan layanan aman untuk semua kebutuhan online Anda.",
   keywords: [
     "SURAT4D",
     "layanan digital modern",
@@ -13,9 +13,9 @@ export const metadata = {
     canonical: "https://mainsurat.pages.dev/",
   },
   openGraph: {
-    title: "Beranda SURAT4D | Pengalaman Layanan Digital yang Aman",
+    title: "Beranda SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
     description:
-      "SURAT4D menghadirkan pengalaman layanan digital modern dengan akses cepat, dukungan pelanggan 24 jam, dan sistem keamanan yang terpercaya.",
+      "Selamat datang di SURAT4D: platform digital Indonesia dengan akses cepat, dukungan 24 jam, dan layanan aman untuk semua kebutuhan online Anda.",
     url: "https://mainsurat.pages.dev/",
     siteName: "SURAT4D",
     images: [
@@ -63,11 +63,27 @@ export default function Home() {
         <section className="w-full max-w-lg mt-2">
           <div className="relative border-2 border-blue-500 rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(30,58,138,0.5)]">
             <img
-              src="/banner.webp"
-              alt="Banner layanan digital SURAT4D"
+              src="/surat4d-akses-cepat-tanpa-lag-terupdate-dengan-visual-lengkap2026.webp"
+              alt="surat4d layanan digital terupdate kualitas tinggi"
               className="w-full object-cover"
             />
           </div>
+        </section>
+
+        <section className="w-full max-w-sm mt-6 flex flex-col gap-4 sm:flex-row">
+          <a
+            href="https://suratsekarang.com/?ref=linkhk/"
+            className="btn-shimmer flex-1 rounded-xl bg-gradient-to-r from-slate-700 via-blue-600 to-sky-500 py-3 text-sm font-bold text-white shadow-2xl shadow-sky-500/20 transition hover:opacity-95 text-center"
+          >
+            DAFTAR
+          </a>
+
+          <a
+            href="https://suratsekarang.com/?ref=linkhk/"
+            className="btn-shimmer flex-1 rounded-xl bg-gradient-to-r from-slate-700 via-blue-600 to-sky-500 py-3 text-sm font-bold text-white shadow-2xl shadow-sky-500/20 transition hover:opacity-95 text-center"
+          >
+            LOGIN
+          </a>
         </section>
 
         <section className="w-full max-w-lg mt-6 text-center">
@@ -80,7 +96,7 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="w-full max-w-sm mt-6 flex gap-4">
+        <section className="w-full max-w-sm mt-4 flex gap-4">
           <a
             href="https://static.zdassets.com/web_widget/latest/liveChat.html?v=10#key=surat4dcom.zendesk.com"
             target="_blank"
@@ -178,6 +194,28 @@ export default function Home() {
           </ul>
         </section>
 
+        <section className="w-full max-w-lg mt-6 bg-[#0e1630] p-6 rounded-xl border border-blue-900">
+          <h2 className="text-lg font-bold text-blue-400 mb-4">Testimoni Pengguna</h2>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            <div className="rounded-3xl bg-[#0d1325] p-5 text-gray-300">
+              <p className="text-sm leading-6">
+                “Saya sudah menggunakan SURAT4D selama 3 bulan. Prosesnya cepat dan tim support selalu responsif, terutama saat saya butuh jawaban cepat di malam hari.”
+              </p>
+              <p className="mt-4 font-semibold text-white">Rini W.</p>
+              <p className="text-xs text-blue-300">MEMBER AKTIV</p>
+            </div>
+
+            <div className="rounded-3xl bg-[#0d1325] p-5 text-gray-300">
+              <p className="text-sm leading-6">
+                “Aplikasi ini memudahkan saya mengelola layanan digital tanpa ribet. Tampilan jelas, cepat, dan terasa lebih aman dibanding layanan lain yang pernah saya coba.”
+              </p>
+              <p className="mt-4 font-semibold text-white">Andi S.</p>
+              <p className="text-xs text-blue-300">MEMBER AKTIV</p>
+            </div>
+          </div>
+        </section>
+
         <section className="w-full max-w-lg mt-6 mb-8 bg-[#0e1630] p-6 rounded-xl border border-blue-900">
           <h2 className="text-lg font-bold text-blue-400 mb-4">Pertanyaan Umum (FAQ)</h2>
 
@@ -216,29 +254,9 @@ export default function Home() {
       </div>
 
       <footer className="flex-none p-4 border-t border-blue-900 bg-[#0b1022]">
-        <div className="max-w-sm mx-auto flex flex-col gap-3">
-          <div className="grid grid-cols-2 gap-3">
-            <a
-              href="https://suratsekarang.com/?ref=linkhk/"
-              className="bg-blue-600 text-center py-4 rounded-xl font-bold"
-            >
-              DAFTAR
-            </a>
-
-            <a
-              href="https://suratsekarang.com/?ref=linkhk/"
-              className="bg-blue-700 text-center py-4 rounded-xl font-bold border border-blue-600"
-            >
-              LOGIN
-            </a>
-          </div>
-
-          <p className="text-center text-xs text-gray-400">
-            SURAT4D merupakan platform digital yang mengutamakan keamanan, kenyamanan, dan kualitas layanan untuk memberikan pengalaman pengguna yang optimal.
-          </p>
-
+        <div className="max-w-sm mx-auto text-center">
           <p className="text-center text-[10px] text-gray-500">
-            © 2026 SURAT4D. All Rights Reserved.
+            © 2026 SURAT4D. WD8 All Rights Reserved.
           </p>
         </div>
       </footer>
