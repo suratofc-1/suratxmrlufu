@@ -307,32 +307,67 @@ export default function Home() {
               </div>
             </div>
           </section>
-          
-          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-                  <a
-                    href="https://suratsekarang.com/register?ref=linkhk"
-                    className="btn-shimmer flex-1 rounded-xl bg-gradient-to-r from-slate-700 via-blue-600 to-sky-500 px-5 py-3 text-center text-sm font-bold text-white shadow-2xl shadow-sky-500/20 transition hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 focus-visible:ring-offset-2"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    aria-label="Daftar SURAT4D (buka di tab baru)"
-                  >
-                    DAFTAR SEKARANG
-                  </a>
-                  <a
-                    href="https://suratsekarang.com/login?ref=linkhk"
-                    className="btn-shimmer flex-1 rounded-xl border border-blue-400/50 bg-slate-900/90 px-5 py-3 text-center text-sm font-bold text-blue-100 transition hover:border-blue-300 hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 focus-visible:ring-offset-2"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    aria-label="Login SURAT4D (buka di tab baru)"
-                  >
-                    LOGIN
-                  </a>
-                </div>
 
-          <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+          {/* CTA Buttons - Enhanced */}
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
+            <a
+              href="https://suratsekarang.com/register?ref=linkhk"
+              className="cta-btn-primary btn-shimmer flex-1 text-center text-sm sm:text-base"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              aria-label="Daftar SURAT4D (buka di tab baru)"
+            >
+              🚀 DAFTAR SEKARANG
+            </a>
+            <a
+              href="https://suratsekarang.com/login?ref=linkhk"
+              className="cta-btn-secondary btn-shimmer flex-1 text-center text-sm sm:text-base"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              aria-label="Login SURAT4D (buka di tab baru)"
+            >
+              LOGIN KE AKUN
+            </a>
+          </div>
+
+          {/* Trust Badges Section */}
+          <section className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-6">
+            <div className="trust-badge">
+              <div className="trust-badge-icon">✅</div>
+              <div className="trust-badge-label">Tersertifikasi</div>
+              <div className="trust-badge-value">100% Aman</div>
+            </div>
+            <div className="trust-badge">
+              <div className="trust-badge-icon">🛡️</div>
+              <div className="trust-badge-label">Keamanan</div>
+              <div className="trust-badge-value">Terenkripsi</div>
+            </div>
+            <div className="trust-badge">
+              <div className="trust-badge-icon">⭐</div>
+              <div className="trust-badge-label">Rating</div>
+              <div className="trust-badge-value">4.9/5.0</div>
+            </div>
+            <div className="trust-badge">
+              <div className="trust-badge-icon">👥</div>
+              <div className="trust-badge-label">Pengguna</div>
+              <div className="trust-badge-value">34k</div>
+            </div>
+            <div className="trust-badge">
+              <div className="trust-badge-icon">⚡</div>
+              <div className="trust-badge-label">Uptime</div>
+              <div className="trust-badge-value">99.9%</div>
+            </div>
+            <div className="trust-badge">
+              <div className="trust-badge-icon">🚀</div>
+              <div className="trust-badge-label">Kecepatan</div>
+              <div className="trust-badge-value">Instan</div>
+            </div>
+          </section>
+
+          <section className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             {benefits.map((item) => (
-              <div key={item.title} className="glass-panel rounded-2xl border border-blue-900/70 p-5 text-center">
-                <div className="mb-3 text-2xl">{item.icon}</div>
+              <div key={item.title} className="glass-panel group rounded-2xl border border-blue-900/70 p-5 text-center transition hover:border-blue-500/50 hover:shadow-lg hover:shadow-blue-500/10">
+                <div className="mb-3 text-3xl transition group-hover:scale-110">{item.icon}</div>
                 <h3 className="text-sm font-bold uppercase tracking-[0.12em] text-blue-300">{item.title}</h3>
                 <p className="mt-2 text-xs leading-6 text-slate-300">{item.text}</p>
               </div>
@@ -342,7 +377,7 @@ export default function Home() {
           <section className="glass-panel rounded-[28px] border border-blue-900/70 p-5 sm:p-6 md:p-8">
             <div className="mb-6 text-center">
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-300">Kenapa memilih kami</p>
-              <h2 className="section-title mt-2 text-2xl font-black text-white sm:text-3xl">
+              <h2 className="section-title section-heading mt-2 text-2xl font-black sm:text-3xl">
                 Solusi digital yang fokus pada kenyamanan dan kepercayaan
               </h2>
             </div>
@@ -363,7 +398,7 @@ export default function Home() {
             <div className="mb-6 flex items-center justify-between gap-3">
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-300">Proses</p>
-                <h2 className="section-title mt-2 text-2xl font-black text-white sm:text-3xl">Cara mulai dengan SURAT4D</h2>
+                <h2 className="section-title section-heading mt-2 text-2xl font-black sm:text-3xl">Cara mulai dengan SURAT4D</h2>
               </div>
             </div>
 
@@ -381,7 +416,7 @@ export default function Home() {
           <section className="glass-panel rounded-[28px] border border-blue-900/70 p-5 sm:p-6 md:p-8">
             <div className="mb-6 text-center">
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-300">Keunggulan</p>
-              <h2 className="section-title mt-2 text-2xl font-black text-white sm:text-3xl">Yang selalu kami prioritaskan</h2>
+              <h2 className="section-title section-heading mt-2 text-2xl font-black sm:text-3xl">Yang selalu kami prioritaskan</h2>
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -405,7 +440,7 @@ export default function Home() {
           <section className="glass-panel rounded-[28px] border border-blue-900/70 p-5 sm:p-6 md:p-8">
             <div className="mb-6 text-center">
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-300">Testimoni</p>
-              <h2 className="section-title mt-2 text-2xl font-black text-white sm:text-3xl">Apa kata pengguna</h2>
+              <h2 className="section-title section-heading mt-2 text-2xl font-black sm:text-3xl">Apa kata pengguna</h2>
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -424,7 +459,7 @@ export default function Home() {
           <section className="glass-panel rounded-[28px] border border-blue-900/70 p-6 sm:p-8 md:p-10">
             <div className="mb-6 text-center">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-300">FAQ</p>
-              <h2 className="section-title mt-2 text-2xl font-extrabold text-white sm:text-3xl">Pertanyaan yang sering ditanyakan</h2>
+              <h2 className="section-title section-heading mt-2 text-2xl font-extrabold sm:text-3xl">Pertanyaan yang sering ditanyakan</h2>
               <p className="mt-2 max-w-2xl mx-auto text-sm text-slate-300">Kami rangkum jawaban singkat dan jelas untuk membantu Anda memahami layanan dengan cepat.</p>
             </div>
 
