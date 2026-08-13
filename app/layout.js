@@ -1,13 +1,14 @@
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   metadataBase: new URL("https://mainsurat.pages.dev"),
   title: {
-    default: "SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
+    default: "SURAT4D — Akses Permainan Online Pilihan dengan Layanan Terpercaya",
     template: "%s | SURAT4D",
   },
   description:
-    "SURAT4D adalah layanan digital Indonesia yang menyediakan akses cepat, dukungan 24 jam, dan keamanan modern untuk pengalaman online yang nyaman dan terpercaya.",
+    "SURAT4D menghadirkan akses permainan online dengan tampilan modern, navigasi praktis, serta layanan yang dirancang untuk memberikan pengalaman nyaman bagi pengguna. Temukan informasi permainan, fitur unggulan, dan akses SURAT4D dalam satu platform yang mudah digunakan.",
   keywords: [
     "SURAT4D",
     "SURAT4D AKSES",
@@ -22,14 +23,14 @@ export const metadata = {
     google: "OoCTB5Tyzd2T1mYa3noTO5eAnc4BHilbv7rUwJJsvVQ",
   },
   openGraph: {
-    title: "SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
+    title: "SURAT4D — Akses Permainan Online Pilihan dengan Layanan Terpercaya",
     description:
-      "Selamat datang di SURAT4D: platform digital Indonesia dengan akses cepat, dukungan 24 jam, dan layanan aman untuk semua kebutuhan online Anda.",
+      "SURAT4D menghadirkan akses permainan online dengan tampilan modern, navigasi praktis, serta layanan yang dirancang untuk memberikan pengalaman nyaman bagi pengguna. Temukan informasi permainan, fitur unggulan, dan akses SURAT4D dalam satu platform yang mudah digunakan.",
     url: "https://mainsurat.pages.dev/",
     siteName: "SURAT4D",
     images: [
       {
-        url: "/thumbnail.webp",
+        url: "/logo-surat4d.png",
         width: 1200,
         height: 630,
         alt: "SURAT4D platform digital Indonesia",
@@ -39,10 +40,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SURAT4D | Layanan Digital Cepat, Aman, dan Terpercaya",
+    title: "SURAT4D — Akses Permainan Online Pilihan dengan Layanan Terpercaya",
     description:
-      "Selamat datang di SURAT4D: platform digital Indonesia dengan akses cepat, dukungan 24 jam, dan layanan aman untuk semua kebutuhan online Anda.",
-    images: ["/thumbnail.webp"],
+      "SURAT4D menghadirkan akses permainan online dengan tampilan modern, navigasi praktis, serta layanan yang dirancang untuk memberikan pengalaman nyaman bagi pengguna. Temukan informasi permainan, fitur unggulan, dan akses SURAT4D dalam satu platform yang mudah digunakan.",
+    images: ["/logo-surat4d.png"],
   },
   robots: {
     index: true,
@@ -57,8 +58,8 @@ export const metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    shortcut: "/logo-surat4d.png",
+    apple: "/logo-surat4d.png",
   },
 };
 
@@ -71,6 +72,36 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
+      <head>
+        <link rel="canonical" href="https://mainsurat.pages.dev/" />
+        <Script
+          id="site-structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "SURAT4D",
+            url: "https://mainsurat.pages.dev/",
+            description: "Platform digital Indonesia yang memberikan layanan modern, akses cepat, dukungan pelanggan 24 jam, dan pengalaman pengguna yang aman.",
+            publisher: {
+              "@type": "Organization",
+              name: "SURAT4D",
+              url: "https://mainsurat.pages.dev/",
+              logo: "https://mainsurat.pages.dev/logo-surat4d.png",
+              sameAs: ["https://facebook.com/mainsurat4d/","https://twitter.com/mainsurat4d/"],
+              contactPoint: [
+                {
+                  "@type": "ContactPoint",
+                  telephone: "+6285373208436",
+                  contactType: "customer support",
+                  areaServed: "ID",
+                  availableLanguage: ["Indonesian","English"]
+                }
+              ]
+            }
+          }) }}
+        />
+      </head>
       <body className="antialiased">{children}</body>
     </html>
   );
