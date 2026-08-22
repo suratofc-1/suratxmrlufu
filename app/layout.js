@@ -20,7 +20,7 @@ export const metadata = {
     canonical: "https://suratxmrlufu.pages.dev/",
   },
   verification: {
-    google: "OoCTB5Tyzd2T1mYa3noTO5eAnc4BHilbv7rUwJJsvVQ",
+    google: "Rjok25XKnyydWvMR10Iw7ypwr8VEUW3hDvf--Za_Txo",
   },
   openGraph: {
     title: "SURAT4D — Akses Permainan Online Pilihan dengan Layanan Terpercaya",
