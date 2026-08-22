@@ -2,7 +2,7 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
-  metadataBase: new URL("https://mainsurat.pages.dev"),
+  metadataBase: new URL("https://suratxmrlufu.pages.dev"),
   title: {
     default: "SURAT4D — Akses Permainan Online Pilihan dengan Layanan Terpercaya",
     template: "%s | SURAT4D",
@@ -17,7 +17,7 @@ export const metadata = {
     "SURAT4D ALTERNATIF",
   ],
   alternates: {
-    canonical: "https://mainsurat.pages.dev/",
+    canonical: "https://suratxmrlufu.pages.dev/",
   },
   verification: {
     google: "OoCTB5Tyzd2T1mYa3noTO5eAnc4BHilbv7rUwJJsvVQ",
@@ -26,7 +26,7 @@ export const metadata = {
     title: "SURAT4D — Akses Permainan Online Pilihan dengan Layanan Terpercaya",
     description:
       "SURAT4D menghadirkan akses permainan online dengan tampilan modern, navigasi praktis, serta layanan yang dirancang untuk memberikan pengalaman nyaman bagi pengguna. Temukan informasi permainan, fitur unggulan, dan akses SURAT4D dalam satu platform yang mudah digunakan.",
-    url: "https://mainsurat.pages.dev/",
+    url: "https://suratxmrlufu.pages.dev/",
     siteName: "SURAT4D",
     images: [
       {
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
-        <link rel="canonical" href="https://mainsurat.pages.dev/" />
+        <link rel="canonical" href="https://suratxmrlufu.pages.dev/" />
         <Script
           id="site-structured-data"
           type="application/ld+json"
@@ -81,13 +81,13 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "SURAT4D",
-            url: "https://mainsurat.pages.dev/",
+            url: "https://suratxmrlufu.pages.dev/",
             description: "Platform digital Indonesia yang memberikan layanan modern, akses cepat, dukungan pelanggan 24 jam, dan pengalaman pengguna yang aman.",
             publisher: {
               "@type": "Organization",
               name: "SURAT4D",
-              url: "https://mainsurat.pages.dev/",
-              logo: "https://mainsurat.pages.dev/logo-surat4d.png",
+              url: "https://suratxmrlufu.pages.dev/",
+              logo: "https://suratxmrlufu.pages.dev/logo-surat4d.png",
               sameAs: ["https://facebook.com/mainsurat4d/","https://twitter.com/mainsurat4d/"],
               contactPoint: [
                 {

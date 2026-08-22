@@ -14,13 +14,13 @@ export const metadata = {
     "keamanan digital",
   ],
   alternates: {
-    canonical: "https://mainsurat.pages.dev/",
+    canonical: "https://suratxmrlufu.pages.dev/",
   },
   openGraph: {
     title: "SURAT4D — Akses Permainan Online Pilihan dengan Layanan Terpercaya",
     description:
       "SURAT4D menghadirkan akses permainan online dengan tampilan modern, navigasi praktis, serta layanan yang dirancang untuk memberikan pengalaman nyaman bagi pengguna. Temukan informasi permainan, fitur unggulan, dan akses SURAT4D dalam satu platform yang mudah digunakan.",
-    url: "https://mainsurat.pages.dev/",
+    url: "https://suratxmrlufu.pages.dev/",
     siteName: "SURAT4D",
     images: [
       {
@@ -42,14 +42,14 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "SURAT4D",
-  url: "https://mainsurat.pages.dev/",
+  url: "https://suratxmrlufu.pages.dev/",
   description:
     "Platform digital Indonesia yang memberikan layanan modern, akses cepat, dukungan pelanggan 24 jam, dan pengalaman pengguna yang aman.",
   publisher: {
     "@type": "Organization",
     name: "SURAT4D",
-    url: "https://mainsurat.pages.dev/",
-    logo: "https://mainsurat.pages.dev/logo-surat4d.png",
+    url: "https://suratxmrlufu.pages.dev/",
+    logo: "https://suratxmrlufu.pages.dev/logo-surat4d.png",
     sameAs: ["https://facebook.com/mainsurat4d/","https://twitter.com/mainsurat4d/"],
               contactPoint: [
             {
@@ -218,14 +218,14 @@ export default function Home() {
           name: "SURAT4D — Akses Permainan Online Pilihan",
           headline: "Layanan Digital Modern yang Cepat, Aman, dan Mudah Diakses",
           description: "SURAT4D hadir untuk memberikan pengalaman digital yang lebih nyaman, lebih aman, dan lebih responsif untuk kebutuhan Anda sehari-hari.",
-          url: "https://mainsurat.pages.dev/",
+          url: "https://suratxmrlufu.pages.dev/",
           mainEntityOfPage: {
             "@type": "WebSite",
-            "@id": "https://mainsurat.pages.dev/",
+            "@id": "https://suratxmrlufu.pages.dev/",
           },
           image: {
             "@type": "ImageObject",
-            url: "https://mainsurat.pages.dev/surat4d%20akses%20cepat%20tanpa%20lag%20terupdate%20dengan%20visual%20lengkap2026.webp",
+            url: "https://suratxmrlufu.pages.dev/surat4d%20akses%20cepat%20tanpa%20lag%20terupdate%20dengan%20visual%20lengkap2026.webp",
           },
         }) }}
       />
@@ -260,8 +260,8 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Beranda", item: "https://mainsurat.pages.dev/" },
-            { "@type": "ListItem", position: 2, name: "Info", item: "https://mainsurat.pages.dev/#info" },
+            { "@type": "ListItem", position: 1, name: "Beranda", item: "https://suratxmrlufu.pages.dev/" },
+            { "@type": "ListItem", position: 2, name: "Info", item: "https://suratxmrlufu.pages.dev/#info" },
             { "@type": "ListItem", position: 3, name: "Daftar", item: "https://suratsekarang.com/register?ref=linkhk" }
           ]
         }) }}
@@ -479,12 +479,12 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-sky-300 mb-4">Informasi</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="https://mainsurat.pages.dev/" className="hover:text-sky-300 transition">Profil & Pengaturan</a></li>
-                <li><a href="https://mainsurat.pages.dev/" className="hover:text-sky-300 transition">Informasi Legal</a></li>
-                <li><a href="https://mainsurat.pages.dev/" className="hover:text-sky-300 transition">Panduan Masuk</a></li>
-                <li><a href="https://mainsurat.pages.dev/" className="hover:text-sky-300 transition">Kebijakan Privasi</a></li>
-                <li><a href="https://mainsurat.pages.dev/" className="hover:text-sky-300 transition">Syarat Layanan</a></li>
-                <li><a href="https://mainsurat.pages.dev/" className="hover:text-sky-300 transition">Bantuan & FAQ</a></li>
+                <li><a href="https://suratxmrlufu.pages.dev/" className="hover:text-sky-300 transition">Profil & Pengaturan</a></li>
+                <li><a href="https://suratxmrlufu.pages.dev/" className="hover:text-sky-300 transition">Informasi Legal</a></li>
+                <li><a href="https://suratxmrlufu.pages.dev/" className="hover:text-sky-300 transition">Panduan Masuk</a></li>
+                <li><a href="https://suratxmrlufu.pages.dev/" className="hover:text-sky-300 transition">Kebijakan Privasi</a></li>
+                <li><a href="https://suratxmrlufu.pages.dev/" className="hover:text-sky-300 transition">Syarat Layanan</a></li>
+                <li><a href="https://suratxmrlufu.pages.dev/" className="hover:text-sky-300 transition">Bantuan & FAQ</a></li>
               </ul>
             </div>
 
